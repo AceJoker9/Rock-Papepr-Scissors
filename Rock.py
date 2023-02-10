@@ -11,6 +11,7 @@ print (ai_weapon)
 def func1(x,y):
     x = int(input("how many human players?"))
     y = input('What is your weapon choice?')
+    return x,y 
 
 
 def robot():
