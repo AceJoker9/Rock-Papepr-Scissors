@@ -17,8 +17,9 @@ def robot():
     t = ai_weapon
     return t
 
+#created two variables that equal to the functions
 human_player = func1
-
+ai = robot
 
 #created a list/variable for the rules to the game
 rules_gmae = ('scissors > paper', 'paper > rock', 'lizard > spock', 'rock > lizard', 'rock > scissors', 'spock > scissors', 'scissors > lizard', 'lizard > paper', 'paper > spock', 'spock > rock') 
