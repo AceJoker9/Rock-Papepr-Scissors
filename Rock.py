@@ -24,3 +24,11 @@ ai = robot
 #created a list/variable for the rules to the game
 rules_gmae = ('scissors > paper', 'paper > rock', 'lizard > spock', 'rock > lizard', 'rock > scissors', 'spock > scissors', 'scissors > lizard', 'lizard > paper', 'paper > spock', 'spock > rock') 
 
+def run_game(): 
+    while rules_gmae == False:
+        if human_player <= ai:
+            print ('Ai is the winner')
+        else:
+            print ('Human is the winner') 
+
+
