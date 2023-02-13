@@ -1,11 +1,11 @@
 from player import player
-from interface import interface
+from interface import red
 class Human(player):
     def __init__(self, name):
         super().__init__(name)
 
     def choose_gesture(Self):
-        user_selection = interface.validate_to_int(f"""
+        user_selection = red(f"""
         Please select from the options below:
         Press 1 for {self.gesture_list[0]}
         Press 2 for {self.gesture_list[1]}

@@ -8,3 +8,8 @@ def validate_to_int(str_input):
             print("Invalid choice. Try again.")
             pass
                 
+
+validate_to_int()
+
+red = validate_to_int
+
